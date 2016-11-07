@@ -9,3 +9,8 @@ How to start the Web
     You should get the the response: `Hello World, it's Nancy on .NET Core`
 4. To running use Postman and enter url `http://localhost:5000/test/my-name`
     You should get the the response: `{"name":"my-name"}`
+
+
+How to use docker start the Web
+---
+`docker run -i -t -p 5000:5000 nancybankapi`
